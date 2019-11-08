@@ -229,4 +229,14 @@ ul.ul3{
   -webkit-columns: 3;
   -moz-columns: 3;
 }
+@media only screen and (max-width: 600px) {
+.title {
+  font-size: 40px;
+  padding-top:50px
+}
+ul{
+font-size: 20px;
+}
+  
+}
 </style>
