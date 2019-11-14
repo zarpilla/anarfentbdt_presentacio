@@ -1,88 +1,91 @@
 <template>
-  <div>
+  <div>    
     <full-page :options="options">      
       <div class="section">
         <div class="title">          
-          QUè fEm 
-          <br>amb El NOstrE
-          <br>tEmps?
-          <br><br><br><br><br>
+          QUè FEM
+          <br>AMB EL NOSTRE
+          <br>TEMPS?
+          
         </div>        
       </div>
       <div class="section">
         <div class="title title2">
-          FEm util
+          FEm útil
           <br>El NOstrE
           <br>tEmps!
-          <br><br><br><br><br>
+          
         </div>        
       </div>
       <div class="section">
         <div class="title title2">
           ANar FENt
-          <br><br>
+          <br>
           BaNC dEL tEmps dEl RipOllès
-          <br><br>
-          www.aNarfENtbdt.Cat
-          <br><br><br><br><br>
+          <br>
+          <div class="small-font">
+            www.aNarfENtbdt.Cat
+            <br>
+            HOla@aNarfENtbdt.Cat
+          </div>
         </div>        
       </div>
       <div class="section">
         <div class="title title">
           QUe és UN BaNC dEL tEmps
           <ul class="ul">
-            <li>Xarxa de sUpOrt mUtú</li>
-            <li>Intercanvi serveis, coneixements, tasques</li>
-            <li>Sense diners</li>
+            <li>Xarxa dE sUpOrt mUtU</li>
+            <li>INtErCaNvi dE sErvEis, CONEixEmENts, tasqUEs</li>
+            <li>SENsE diNErs</li>
           </ul>
-          <br><br><br><br><br>
+          
         </div>        
       </div>      
       <div class="section">
         <div class="title title2">
           MONEda = TEmps
         </div>        
-        <br><br><br><br>
+        
       </div>
       <div class="section">
         <div class="title title2">
-          Valors
+          ValOrs
           <ul class="ul">
-            <li>integració social</li>
-            <li>relacions intergeneracionals i interculturals</li>
-            <li>relacions veïnals</li>
-            <li>autoestima</li>
-            <li>coneixença, igualtat, confiança i cooperació</li>
-            <li>conciliació de la vida personal, familiar i laboral</li>
+            <li>iNtEgraCió sOCial</li>
+            <li>rElaCiONs iNtErgENEraCiONals i iNtErCUltUrals</li>
+            <li>rElaCiONs vEïNals</li>
+            <li>aUtOEstima</li>
+            <li>CONEixENça, igUaltat, CONfiaNça i COOpEraCIó</li>
+            <li>CONCiliaCió dE la vida pErsONal, familiar i labOral</li>
           </ul>
-          <br><br><br><br><br>
+          
         </div>        
       </div>
       <div class="section">
         <div class="title title">
-          Com neix el banc del temps del Ripollès
+          COm NEix El baNC dEl tEmps dEl RipOllès
           <ul class="ul">
-            <li>XES RipollEs</li>            
+            <li>XES RipOllès</li>            
           </ul>
         </div>        
       </div>
       <div class="section">
         <div class="title title2">
-          Qui pot formar part del Banc
+          QUi pOt fOrmar part dEl BaNC
           <ul class="ul">
-            <li>Persones majors de 18 anys</li>
-            <li>Entitats</li>
-            <li>Col·lectius</li>
+            <li>PErsONEs majOrs dE 18 aNys</li>
+            <li>ENtitats</li>
+            <li>COl·lECtiUs</li>
           </ul>
         </div>        
       </div>
       <div class="section">
         <div class="title title2">
-          Com formar part del Banc
+          COm fOrmar part dEl BaNC
           <ul class="ul">
-            <li>Formulari de <a href="https://docs.google.com/forms/d/1kyGJJOlIzL1ftFsfc8FigTECDBRI2murhsnUDvfVk-E" target="_blank">preinscripció</a></li>
-            <li>Entrevista personal</li>
-            <li>Aplicació web <a href="https://www.timeoverflow.org/" target="_blank">TimeOverflow</a></li>
+            <li>FORMULARI DE <a href="https://docs.google.com/forms/d/1kyGJJOlIzL1ftFsfc8FigTECDBRI2murhsnUDvfVk-E" target="_blank">PREINSCRIPCIó</a></li>
+            <li>ENtrEvista pErsONal</li>
+            <li>ApliCaCió wEb <a href="https://www.timeoverflow.org/" target="_blank">TIMEOVERFLOW</a></li>
           </ul>
         </div>        
       </div>
@@ -90,90 +93,88 @@
         <div class="title title">
           TIMEOVERFLOW
           <ul class="ul">
-            <li>Membres</li>            
-            <li>Ofertes</li>
-            <li>demandes</li>            
+            <li>MEMBRES</li>
+            <li><a href="https://www.timeoverflow.org/offers?org=266" target="_blank">OFERTES</a></li>
+            <li><a href="https://www.timeoverflow.org/inquiries?org=266" target="_blank">DEMANDES</a></li>
+            <li>CONTACTE DIRECTE ENTRE MEMBRES</li>
+            <li>TRANSFERèNCIA DE TEMPS</li>
           </ul>
         </div>        
       </div>         
       <div class="section">
         <div class="title title2">
-          Com hi poden participar les entitats
+          COM HI PODEN PARTICIPAR LES ENTITATS
           <ul class="ul">
-            <li>Ofertes i demandes</li>
-            <li>Compte solidari</li>            
+            <li>OFERTES I DEMANDES</li>
+            <li>COMPTE SOLIDARI</li>            
           </ul>
         </div>        
       </div>      
       <div class="section">
         <div class="title title2">
-          Tallers
+          TALLERS
           <ul class="ul">
-            <li>Oferta o demanda Grupal</li>
-            <li>Promoguts des del banc</li>
-            <li>Promoguts des de les persones membres</li>
+            <li>OFERTA O DEMANDA GRUPAL</li>
+            <li>PROMOGUTS DES DEL BANC DEL TEMPS</li>
+            <li>PROMOGUTS DES DE LES PERSONES MEMBRES</li>
           </ul>
-          <br><br><br><br>
+          
         </div>        
-      </div>
+      </div>      
       <div class="section">
         <div class="title title">
-          Com realitzar intercanvis
-          <ul class="ul">
-            <li>Aplicació web <a href="https://www.timeoverflow.org/" target="_blank">TimeOverflow</a></li>
-            <li>Membres, Ofertes i demandes</li>
-            <li>Contacte directe entre membres</li>
-            <li>Transferència de Temps</li>
-          </ul>
-          <br><br><br><br>
-        </div>        
-      </div>      
-      <div class="section">
-        <div class="title title2">
-          Quins intercanvis puc fer
+          QUINS INTERCANVIS PUC FER
           <ul class="ul3">
-          <li>art i artesania</li>
-          <li>assessorament i orientació general</li>
-          <li>compres i comerç</li>
-          <li>cuina</li>
-          <li>cultura</li>
-          <li>cura d’animals</li>
-          <li>ensenyament</li>
-          <li>esports i animació</li>
-          <li>idiomes</li>
-          <li>informàtica i altres tecnologies</li>
-          <li>lleure i entreteniment</li>
-          <li>obra i construcció</li>
-          <li>salut i cura de persones</li>
-          <li>servei tècnic</li>
-          <li>serveis a la comunitat</li>
-          <li>teràpies alternatives</li>
-          <li>transport</li>
-          <li>treballs de jardineria</li>
-          <li>treballs de la llar</li>
+          <li>ART I ARTESANIA</li>
+          <li>ASSESSORAMENT I ORIENTACIó GENERAL</li>
+          <li>COMPRES I COMERÇ</li>
+          <li>CUINA</li>
+          <li>CULTURA</li>
+          <li>CURA D’ANIMALS</li>
+          <li>ENSENYAMENT</li>
+          <li>ESPORTS I ANIMACIó</li>
+          <li>IDIOMES</li>
+          <li>INFORMÀTICA I ALTRES TECNOLOGIES</li>
+          <li>LLEURE I ENTRETENIMENT</li>
+          <li>OBRA I CONSTRUCCIó</li>
+          <li>SALUT I CURA DE PERSONES</li>
+          <li>SERVEI TèCNIC</li>
+          <li>SERVEIS A LA COMUNITAT</li>
+          <li>TERÀPIES ALTERNATIVES</li>
+          <li>TRANSPORT</li>
+          <li>TREBALLS DE JARDINERIA</li>
+          <li>TREBALLS DE LA LLAR</li>
           </ul>
-          <br><br><br><br>
+          
         </div>        
       </div>
       <div class="section">
         <div class="title title2">
-          Conducta
+          NORMES DE CONDUCTA
           <ul class="ul">
-            <li>Respecte</li>
-            <li>Privacitat de dades</li>            
+            <li>RESPECTE</li>
+            <li>PRIVACITAT DE DADES</li>            
           </ul>
         </div>        
       </div>      
       <div class="section">
+        <div class="title title2">
+          DUBTES?          
+        </div>       
+      </div>       
+      <div class="section">
         <div class="title title">
-          MOltEs GräCiEs!!!
+          FINS AVIAT!!!
+          <br>
+          <br>
+          <div class="small-font">
+          ANar FENt, BaNC dEL tEmps dEl RipOllès
           <br><br>
-          ANar FENt
-          <br>
-          BaNC dEL tEmps dEl RipOllès
-          <br>
           www.aNarfENtbdt.Cat
-          <br><br><br><br>
+          <br>
+          HOLA@aNarfENtbdt.Cat
+          </div>
+          
         </div>        
       </div>      
     </full-page>    
@@ -202,22 +203,27 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.fp-tableCell{
+  /* display: block!important; */
+}
 .title {
   font-size: 100px;
-  color:#111;
-  padding-top:200px
+  color:#111;  
 }
 .title2 {
   color:#fff;
+}
+.small-font{
+  font-size: 46px;
 }
 a {
   color: #42b983;
 }
 ul{
-font-size: 50px;
+font-size: 46px;
 }
 ul li{
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 ul.ul2{
   columns: 2;
@@ -232,7 +238,6 @@ ul.ul3{
 @media only screen and (max-width: 600px) {
 .title {
   font-size: 40px;
-  padding-top:50px
 }
 ul{
 font-size: 20px;
